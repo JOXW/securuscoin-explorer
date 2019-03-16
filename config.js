@@ -1,14 +1,14 @@
-var api = 'http://wika-airline.de:14115';
-var donationAddress = "";
+var api = 'http://securuscoin.org:14115';
+var donationAddress = "hier";
 var blockTargetInterval = 60; // enter the block interval in seconds
-var coinUnits = 1000;  // enter in the amount of atomic units in 1 coin, eg. 100 shells = 1 trtl
+var coinUnits = 1000;  // enter in the amount of atomic units in 1 coin, eg. 1000 shells = 1 scr
 var totalSupply =  33000000000; // enter the total supply in atomic units
 var symbol = 'SCR'; // enter the coin's ticker
 var refreshDelay = 30000;
 
 // pools stats by MainCoins
 var networkStat = {
- "trtl": [
+ "scr": [
 	["z-pool.com", "http://z-pool.com:8117"],
 	["eu.turtlepool.space", "http://eu.turtlepool.space:8117"],
 	["us.turtlepool.space", "http://us.turtlepool.space:8117"],
@@ -26,7 +26,7 @@ var networkStat = {
 };
 
 var networkStat2 = {
-    "trtl": [
+    "scr": [
 	[""]
  ]
 };

@@ -1,6 +1,6 @@
 <?php
 return array(
         'api' => 'localhost:14115',
-        'blockTargetInterval' => 30,
-        'coinUnits' => 100
+        'blockTargetInterval' => 60,
+        'coinUnits' => 1000
 );
