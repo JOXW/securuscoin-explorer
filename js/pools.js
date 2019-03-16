@@ -399,7 +399,7 @@ function calcEstimateProfit(){
         var hashRate = parseFloat($('#calcHashRate').val()) * rateUnit;
         var profit = (hashRate * 86400 / avgDiff /*lastStats.difficulty*/) * lastReward;
         if (profit) {
-            updateText('calcHashAmount', getReadableCoins(profit, 2, true));
+            updateText('calcHashAmount', getReadableCoins(profit, 3, true));
             return;
         }
     }
