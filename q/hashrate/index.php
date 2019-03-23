@@ -1,10 +1,5 @@
 <?php
-require '../util.php';
-$config = (require '../../config.php');
+$info = file_get_contents("http://explorer.securuscoin.org:14115/getinfo");
+echo ($info, ["height"]);
 
-$info = fetch_getinfo($config['api']);
-
-$difficulty = $info['difficulty'];
-$hashrate = round($difficulty / $config['blockTargetInterval']);
-
-print_r($hashrate);
+//print_r($hashrate);
